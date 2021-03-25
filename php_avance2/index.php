@@ -52,7 +52,7 @@
 
   <label  for="message">Message :</label>
 
-  <textarea  id="message"  name="user_message"></textarea>
+  <textarea  id="message"  name="user_message"></textarea required>
 
 </div>
 

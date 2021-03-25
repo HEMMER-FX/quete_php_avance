@@ -5,7 +5,7 @@
 
   <label  for="nom">Nom :</label>
 
-  <input  type="text"  id="nom"  name="user_name">
+  <input  type="text"  id="nom"  name="user_name" required>
 
 </div>
 
@@ -13,7 +13,7 @@
 
   <label  for="prenom">Prénom :</label>
 
-  <input  type="text"  id="lastname"  name="user_lastname">
+  <input  type="text"  id="lastname"  name="user_lastname" required>
 
 </div>
 
@@ -29,7 +29,7 @@
 
     <label for="object">Objet de la reqête :</label>
 
-    <select name="object" id="object">
+    <select name="object" id="object" required>
         <option value="">--Please choose an option--</option>
         <option value="Problème réseau">Problème réseau</option>
         <option value="pass_lost">Mot de passe perdu</option>
@@ -44,7 +44,7 @@
 
   <label  for="courriel">E-mail :</label>
 
-  <input  type="email"  id="courriel"  name="user_email">
+  <input  type="email"  id="courriel"  name="user_email" required>
 
 </div>
 
